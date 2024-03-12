@@ -9,7 +9,7 @@ public class ClimbingStaires2 {
         public static void main(String [] args) {
             System.out.println();
             System.out.println("Enter the total number in the stairs to figure out the \n" +
-                    "number of distinct ways to climb: ");
+                    "number of distinct ways to climb: "); 
             Scanner scInput = new Scanner(System.in);
             long usrInput1 = scInput.nextInt();
             long a = numOfWaysToClimb(usrInput1);
