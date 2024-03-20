@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class PackageMeasurementConverter {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -18,6 +17,8 @@ public class PackageMeasurementConverter {
             System.out.println(letters[i] + " = " + count[i]);
         }
 
+        System.out.println(Arrays.toString(letters));
+        System.out.println(Arrays.toString(count));
             System.out.println("Enter the string that you want to evaluate: ");
             String evaluatedString = sc.nextLine();
             for (int j = 0; j<evaluatedString.length()-1; j++){
