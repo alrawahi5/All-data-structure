@@ -67,8 +67,8 @@ public class ExpressionEvaluator {
     }
 
     private static int operate(Stack<Integer> numbers, Stack<Character> operatorsAndParentheses) {
-        int i = numbers.pop();
         int j = numbers.pop();
+        int i = numbers.pop();
         char operatorsAndParenthesess = operatorsAndParentheses.pop();
         if(operatorsAndParenthesess == '+'){
             return i + j;
